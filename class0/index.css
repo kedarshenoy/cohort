@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 20px;
+    border-bottom:2px solid rgb(243, 237, 237) ;
+}
+
+
+.btns{
+    padding-right: 25px;
+    color: gray;
+    font-size: 16px;
+}
+
+.btns:hover{
+    cursor: pointer;
+    color:blue
+}
+
+.landimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.bodytext{
+    text-align: center;
+}
+
+.submitbtn{
+    color:white;
+    font-size: 20px;
+    /* font-weight: 900px; */
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 08px;
+    background-color: rgb(0, 102, 255);
+}
+
+.submitbtn:hover{
+    cursor: pointer;
+
+    background-color: black;
+}
